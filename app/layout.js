@@ -1,19 +1,16 @@
-import "./globals.css";
-import Footer from "@/src/components/organisms/Footer";
+import Footer from "../src/components/organisms/Footer";
+import Header from "../src/components/organisms/Header";
 
-export const metadata = {
-    title: "Minami's portfolio",
-    description: "This is Minami's portfolio website",
-};
 export default function RootLayout({ children }) {
-    return (
-        <html lang="en">
-            <body>
-                <main className="min-h-screen flex flex-col">
-                    {children}
-                    <Footer />
-                </main>
-            </body>
-        </html>
-    );
+  return (
+    <html lang="ja">
+      <body className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  );
 }

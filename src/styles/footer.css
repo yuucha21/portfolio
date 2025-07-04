@@ -1,0 +1,22 @@
+
+.footer-link {
+    @apply text-white hover:text-gray-300 transition-colors duration-200;
+}
+
+.footer-container {
+    @apply max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4;
+}
+
+.footer-bg {
+    @apply bg-gray-900 py-8 px-4;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap; /* 幅が狭いとき折り返す */
+    padding: 20px;
+    background-color: #1f2937; /* ダーク背景 */
+    color: white;
+}

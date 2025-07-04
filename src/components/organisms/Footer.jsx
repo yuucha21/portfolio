@@ -4,7 +4,7 @@ import FooterText from "../atoms/FooterText";
 export default function Footer() {
     return (
         <footer style={{ textAlign: "center", padding: "2rem" }}>
-            <div className="container mx-auto flex justify-between items-center">
+            <div className="flex justify-between items-center gap-4 flex-wrap">
                 <FooterLinks />
                 <FooterText />
             </div>
