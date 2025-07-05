@@ -17,6 +17,6 @@
     gap: 16px;
     flex-wrap: wrap; /* 幅が狭いとき折り返す */
     padding: 20px;
-    background-color: #1f2937; /* ダーク背景 */
-    color: white;
+    background-color: #CCE2F1; /* ダーク背景 */
+    color: black;
 }

@@ -1,5 +1,6 @@
 import FooterLinks from "../molecules/FooterLinks";
 import FooterText from "../atoms/FooterText";
+import WaveFooterBackground from "../atoms/WaveFooterBackground.jsx";
 
 export default function Footer() {
     return (
